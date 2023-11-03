@@ -1,0 +1,472 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Font Link Use */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Part Start */
+.header_part {
+  background: url(../img/home-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #5584FF;
+  transition: 0.3s;
+}
+.header_button {
+  height: 50px;
+  width: 135px;
+  border-radius: 30px;
+  border: 1px solid #233972;
+  background: none;
+}
+.head_btn_inner a {
+  font-size: 18px;
+  color: #5584ff;
+  text-decoration: none;
+}
+.head_btn_inner:hover a {
+  color: #fff;
+  transition: 0.3s;
+}
+/* Header Part End */
+
+/* Hero Part Start */
+.hero_part {
+  padding: 80px 0 0;
+}
+.hero_head h4 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+}
+.hero_head p {
+  color: #8492af;
+  font-size: 36px;
+}
+.hero_btn {
+  padding: 80px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.hero_btn_inner {
+  width: 205px;
+  height: 45px;
+  border-radius: 30px;
+  background: #5584ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid #fff; */
+  transition: 0.3s;
+}
+.hero_btn_inner:hover {
+  background: #3755A4;
+  border: 1px solid #5584ff;
+  transition: 0.3s;
+}
+.hero_btn_inner a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.hero_img {
+  margin-bottom: -120px;
+}
+/* Hero Part End */
+
+/* Feature Part Start */
+.feature_part {
+  padding: 250px 0 100px;
+  background: #fff;
+}
+.feat_head_img {
+  margin-bottom: -50px;
+}
+.feature_head h5 {
+  padding: 60px 0 15px;
+  font-size: 24px;
+  color: #0e1a35;
+  font-weight: 700;
+}
+.feature_head p {
+  font-size: 18px;
+  color: #8492af;
+}
+.feature_btn {
+  padding: 50px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.feature_btn_inner {
+  width: 255px;
+  height: 45px;
+  border-radius: 30px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #dadee7;
+  transition: 0.3s;
+}
+.feature_btn_inner a {
+  font-size: 18px;
+  color: #0e1a35;
+  font-weight: 700;
+  text-decoration: none;
+}
+.feature_btn_inner:hover {
+  background: #5584ff;
+  border: 1px solid #dadee7;
+  transition: 0.3s;
+}
+/* Feature Part End */
+
+/* Browser Part Start */
+.browser_part {
+  padding: 130px 0;
+  background: #fff;
+}
+.browser_con_main {
+  margin-left: 90px;
+}
+.browser_head h4 {
+  font-size: 50px;
+  color: #0e1a35;
+  font-weight: 100;
+  margin: 30px 0;
+}
+.browser_head p {
+  font-size: 18px;
+  color: #8492af;
+}
+.browser_clock p {
+  margin-top: 40px;
+  font-size: 22px;
+  color: #5584ff;
+}
+.browser_clock i {
+  padding-right: 10px;
+  color: #5584ff;
+}
+.browser_clock p:hover {
+  color: #3755A4;
+}
+.browser_img img {
+padding-top: 25px;
+}
+/* Browser Part End */
+
+/* Drag and Drop Part Start */
+.drag_part {
+  background: url(../img/drag-drop_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.drag_con {
+  padding: 160px 0;
+}
+.drag_head h6 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.drag_head h6 .number {
+  color: #8492af;
+}
+.drag_head i {
+  margin-left: 80px;
+  color: #fff;
+}
+.drag_img img {
+  margin-left: 36px;
+}
+.drag_text p {
+  font-size: 20px;
+  color: #8492af;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.drop_head h4 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 100;
+}
+.drop_head p {
+  font-size: 18px;
+  color: #8492af;
+}
+.drop_icon {
+  padding: 30px 0;
+}
+.drop_icon_inner {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #a5aec3;
+  background: none;
+}
+.drop_icon_inner a {
+  font-size: 20px;
+  color: #a5aec3;
+}
+.drop_icon_inner:hover {
+  background: #5584ff;
+  transition: 0.3s;
+}
+.i-2 {
+  margin-left: 20px;
+}
+/* Drag and Drop Part End */
+
+/* ================ Developed by Programmer Titu With Titu Mollick =================== */
+
+/* Powerfull PSD Template Part Start */
+.template_part {
+  padding: 100px 0;
+  background: #f6f7fa;
+}
+.template_head h4 {
+  font-size: 60px;
+  color: #0e1a35;
+  font-weight: 100;
+}
+.template_head p {
+  font-size: 18px;
+  color: #8492af;
+}
+.template_con_main {
+  margin-top: 50px;
+}
+.row-1 {
+ padding-top: 20px;
+}
+.psd_head_row h6 {
+  font-size: 24px;
+  color: #0e1a35;
+}
+.psd_head_row p {
+  font-size: 17px;
+  color: #8492af;
+}
+.row-2 {
+  padding-top: 133px;
+}
+/* Powerfull PSD Template Part End */
+
+/* Pricing Part Start */
+.pricing_part {
+  padding-bottom: 90px;
+  background: #f6f7fa;
+}
+.pricing_head h4 {
+  font-size: 60px;
+  color: #0e1a35;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+.pricing_con {
+  height: 420px;
+  width: 360px;
+  background: #fff;
+}
+.pricing_con:hover {
+  box-shadow: 0 0 3px black;
+  transition: 0.3s;
+}
+.pricing_row_head h6 {
+  font-size: 24px;
+  color: #0e1a35;
+  padding: 40px 0 0;
+}
+.pricing_row_head p {
+  font-size: 24px;
+  color: #8492af;
+}
+.pricing_row_head .price {
+  font-size: 62px;
+  color: #0e1a35;
+  font-weight: 700;
+}
+.pricing_text p {
+  font-size:18px;
+  color: #8492af;
+}
+.pricing_icon a {
+  margin: 0 15px 0 55px;
+  font-size: 20px;
+}
+.pricing_text .pricing_icon p:hover {
+  color: #5584ff;
+  transition: 0.3s;
+}
+
+.pricing_icon_2 a {
+  margin: 0 15px 0 55px;
+  font-size: 20px;
+  color: #f83c7b;
+}
+.pricing_btn {
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.pricing_btn .button {
+  height: 50px;
+  width: 205px;
+  background: #5584ff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+}
+.pricing_btn .button:hover {
+  background: #3755A4;
+  transition: 0.3s;
+}
+.pricing_btn .button a {
+  color: rgb(230, 25, 25);
+  text-decoration: none;
+}
+.pricing_img img {
+  margin-top: -75px;
+}
+/* Pricing Part End */
+
+/* Footer Part Start */
+.footer_part {
+  padding: 30px 0 10px;
+  background: #0d1935;
+}
+.footer_part p {
+  font-size: 18px;
+  color: #8492af;
+}
+.footer_part span {
+  font-size: 18px;
+  color: #5584FF;
+}
+.footer_part span:hover {
+  color: #3755A4;
+  transition: 0.3s;
+}
+.footer_con {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+.footer_con_main a {
+  font-size: 18px;
+  color: #8492af;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.footer_con_main a:hover {
+  color: #5584FF;
+  transition: 0.3s;
+}
+.footer_icon a {
+  font-size: 20px;
+  color: #8391af;
+  margin-left: 20px;
+  align-items: right;
+}
+.footer_icon a:hover {
+  color: #3755A4;
+  transition: 0.3s;
+}
+/* Footer Part End */
+
+/* Responsiv CSS Start Inportent */  
+
+/* 
+    |||||||||||||||||||||||||||||||  💖 RESPONSIVE CSS   |||||||||||||||||||||||||||||||||||||||||
+*/
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .browser_img img,
+  .hero_img img {
+  height: 370px;
+  width: 370px;
+  }
+  .mt_2,
+  .mt_1 {
+    margin-top: 1.5rem;
+  }
+  .footer_con_main a,
+  .footer_icon a {
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .browser_img img,
+  .hero_img img {
+  height: 370px;
+  width: 370px;
+  }
+  .mt_2,
+  .mt_1 {
+    margin-top: 1.5rem;
+  }
+  .footer_con_main a,
+  .footer_icon a {
+    margin-left: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .browser_img img,
+  .hero_img img {
+  height: 500px;
+  width: 500px;
+  }
+  .pricing_con {
+    height: 380px;
+    width: 320px;
+  }
+  .mt_1 {
+    margin-top: 1.5rem;
+  }
+  .footer_con_main a,
+  .footer_icon a {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pricing_con {
+    height: 360px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
